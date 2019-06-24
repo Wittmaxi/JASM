@@ -1,0 +1,11 @@
+JMP hello
+variable1: DB 10
+variable2: DB 30
+variable3: DB 230
+hello:
+TAKE variable1
+ADD variable2
+SAVE variable3
+INC variable1
+JMP hello
+HLT
