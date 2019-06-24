@@ -163,8 +163,8 @@ end;
 
 procedure FlushToNewLine ();
 begin
-	while (NOT EOF (fileHandle)) AND (GetNext <> 10) do
-		; { consume the current byte until we hit a new line }
+	while (NOT EOF (fileHandle)) AND (PeekNext <> $A) do
+		GetNext; { consume the current byte until we hit a new line }
 end;
 
 procedure SkipSpaces ();
@@ -382,7 +382,7 @@ end;
 
 procedure CompileLoop ();
 begin
-	Assign (fileHandle, 'in.jasm');
+	Assign (fileHandle, ParamStr(1));
 	Reset (fileHandle);
 	while NOT EOF (fileHandle) do
 	begin
