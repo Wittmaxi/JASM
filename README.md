@@ -20,16 +20,16 @@ You use `DB` to define a value in a specific memory location. In order to refere
 MyImportantVariable: DB 100
 ```
 ### Operations
-`TAKE` takes a value from memory - Arguments: position (integer) or label
-`SAVE` saves a value to memory - Arguments: position (integer) or label
-`ADD` adds a memory cell to ACC - Arguments: position (integer) or label
-`SUB` subtracts a memory cell from ACC - Arguments: position (integer) or label
-`INC` subtracts a memory cell - Arguments: position (integer) or label
-`DEC` subtracts a memory cell - Arguments: position (integer) or label
-`NULL` sets a memory cell to 0 - Arguments: position (integer) or label
-`TST` tests if a memroy cell is 0 and skips the next memory cell if it is - Arguments: position (integer) or label
-`JMP` Jump to a memory cell - Arguments: position (integer) or label
-`HLT` stop execution - Arguments: no arguments
+`TAKE` takes a value from memory - Arguments: position (integer) or label<br>
+`SAVE` saves a value to memory - Arguments: position (integer) or label<br>
+`ADD` adds a memory cell to ACC - Arguments: position (integer) or label<br>
+`SUB` subtracts a memory cell from ACC - Arguments: position (integer) or label<br>
+`INC` subtracts a memory cell - Arguments: position (integer) or label<br>
+`DEC` subtracts a memory cell - Arguments: position (integer) or label<br>
+`NULL` sets a memory cell to 0 - Arguments: position (integer) or label<br>
+`TST` tests if a memroy cell is 0 and skips the next memory cell if it is - Arguments: position (integer) or label<br>
+`JMP` Jump to a memory cell - Arguments: position (integer) or label<br>
+`HLT` stop execution - Arguments: no arguments<br>
 
 ## Example Programs
 Multiply two variables with eachother
