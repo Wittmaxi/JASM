@@ -41,7 +41,8 @@ DEC mul2
 TST mul2 ; mul2 is zero once mul1 was added enough times
 JMP loop
 HLT
-mul1: DB 3
+mul1: ;labels can be on their own in a line
+DB 3
 mul2: DB 4
 result: DB 0
 ```
