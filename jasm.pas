@@ -3,7 +3,7 @@
 	assembler compiler for the Johnny Simulator https://sourceforge.net/projects/johnnysimulator/files/latest/download written by Peter Dauscher!
 
 	Copyright Maximilian Wittmer 2019
-	Released under the GNU GPL license - Compiled by FPC
+	Released under the GNU LGPL license - Compiled by FPC
 }
 
 program JASM;
